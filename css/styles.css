@@ -1,0 +1,52 @@
+
+body{
+
+  background: url(FondoP.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: 100% 70%;
+  font-family: 'ancizarR';
+}
+h1{
+    font-family: 'ancizarS';
+    color: #333;
+    font-size: 2.5rem;
+    padding: 3rem 1rem 1rem 3rem;
+}
+h3{
+  font-family: 'ancizarS';
+  color: #50992E;
+  margin-left: 3rem;
+
+}
+
+.title-image{
+    width:30%;
+    display:block;
+    margin:auto;
+
+}
+
+.video-YouTube{
+  padding: 2rem 0;
+  display:block;
+  margin:auto;
+}
+.texto{
+  text-align: center;
+  padding:0 15rem;
+}
+.botoxd{
+    display:block;
+  margin: auto;
+    text-align: center;
+padding: 3rem 0;
+}
+
+.bot1{
+  margin: 0 1rem;
+}
+.conte{
+  padding: 0 2rem;
+
+}
