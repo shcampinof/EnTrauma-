@@ -28,23 +28,27 @@ h3{
 }
 
 .video-YouTube{
-  padding: 2rem 0;
   display:block;
   margin:auto;
+  border: 2px solid grey;
+  border-radius: 5px;
+  overflow: hidden;
+  width: 55%
+  height: auto;
 }
 .texto{
   text-align: center;
-  padding:0 15rem;
+  padding:0 10%;
 }
-.botoxd{
+.botonn{
     display:block;
-  margin: auto;
+    margin: 1.2rem auto;
     text-align: center;
-padding: 3rem 0;
+    padding: 2rem 0;
 }
 
 .bot1{
-  margin: 0 1rem;
+  margin: 1rem 1rem;
 }
 .conte{
   padding: 0 2rem;
