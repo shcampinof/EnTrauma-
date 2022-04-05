@@ -1,11 +1,9 @@
-
 body{
-
   background: url(FondoP.png);
   background-size: 100%;
   background-repeat: no-repeat;
   background-position: 100% 70%;
-  font-family: 'ancizarR';
+
 }
 h1{
     font-family: 'ancizarS';
@@ -18,6 +16,10 @@ h3{
   color: #50992E;
   margin-left: 3rem;
 
+}
+
+.subtitulo-entrauma{
+  margin-bottom: 2rem;
 }
 
 .title-image{
@@ -33,8 +35,7 @@ h3{
   border: 2px solid grey;
   border-radius: 5px;
   overflow: hidden;
-  width: 55%
-  height: auto;
+  width: 50%;
 }
 .texto{
   text-align: center;
