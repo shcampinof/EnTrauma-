@@ -1,31 +1,37 @@
 body{
-  background: url(FondoP.png);
-  background-size: 100%;
-  background-repeat: no-repeat;
-  background-position: 100% 70%;
-
+  min-height: 100vh;
+  background: linear-gradient(rgba(218, 218, 224, 0.877), rgba(5,7,12,0.75)),
+  url(FondoP1.jpg)  no-repeat center center fixed;
+  background-size: cover;
 }
+
 h1{
-    font-family: 'ancizarS';
-    color: #333;
-    font-size: 2.5rem;
+    color: rgb(22, 13, 13);
     padding: 3rem 1rem 1rem 3rem;
 }
 h3{
-  font-family: 'ancizarS';
-  color: #50992E;
+  font-family: 'Ancizar sans';
   margin-left: 3rem;
-
 }
 
+.main-text{
+  font-family: 'Ancizar sans';
+  font-weight: 700;
+  font-size: 4.5rem;
+} 
+
 .subtitulo-entrauma{
-  margin-bottom: 2rem;
+  margin-bottom: 2.2rem;
+  font-size: 2rem;
+  font-weight: 700;
+  color: #474846;
 }
 
 .title-image{
-    width:30%;
+    width:28rem;
     display:block;
     margin:auto;
+    padding: 1.3rem;
 
 }
 
@@ -35,11 +41,13 @@ h3{
   border: 2px solid grey;
   border-radius: 5px;
   overflow: hidden;
-  width: 50%;
+  width: 60rem;
 }
+
 .texto{
   text-align: center;
-  padding:0 10%;
+  padding:3% 10% 0;
+  font-size: 1.4rem;
 }
 .botonn{
     display:block;
@@ -50,8 +58,16 @@ h3{
 
 .bot1{
   margin: 1rem 1rem;
+  font-size: 1.2rem;
 }
 .conte{
   padding: 0 2rem;
 
 }
+
+@media only screen and (max-width: 768px) {
+
+ .video-YouTube{
+   width: 30rem;
+ }
+  }
