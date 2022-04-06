@@ -154,7 +154,7 @@ function cambiarContrastes(number) {
 
 function restaurarContraste(){
   var contra = document.getElementsByTagName('body')[0];
-  var contra2 = document.getElementsByTagName('div')[55];
+  var contra2 = document.getElementsByTagName('div')[59];
   contra.removeAttribute("class");
   contra2.classList.add("content");
   
