@@ -490,13 +490,24 @@ main.home {
 }
 
 .contraste-1 {
-    background-color: red
+    background-color: red;
+    background-image: none;
+    background-size: auto auto;
+    color: white;
+
+
 }
 
 .contraste-2 {
-    background-color: green
+    background-color: green;
+    background-image: none;
+    background-size: auto auto;
+
 }
 
 .contraste-3 {
-    background-color: blue
+    background-color:blue;
+    background-image: none;
+    background-size: auto auto;
+
 }

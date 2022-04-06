@@ -4,7 +4,8 @@
 
 function ammunition(estilo1,estilo2){
   	var estail = estilo1+' '+estilo2;
-	var frontPage = document.getElementsByTagName('body')[0].className = estail;  	
+    var frontPage = document.getElementsByTagName('body')[0].className = estail;
+    var frontPage1 = document.getElementsByTagName('div')[55].className = estail;
   	console.log(estail);
 }
 
@@ -19,20 +20,25 @@ function hasClass(el, className)
 
 function addClass(el, className)
 {	
-    if (el.classList)
-        el.classList.add(className)
+    if (el.classList){
+        el.classList.add(className);
+    }
     else if (!hasClass(el, className))
         el.className += " " + className;
+
 }
 
 function removeClass(el, className)
 {
-    if (el.classList)
-        el.classList.remove(className)
+    if (el.classList){
+        el.classList.remove(className);
+    }
+
     else if (hasClass(el, className))
     {
         var reg = new RegExp('(\\s|^)' + className + '(\\s|$)');
         el.className = el.className.replace(reg, ' ');
+        
     }
 }
 
@@ -148,7 +154,10 @@ function cambiarContrastes(number) {
 
 function restaurarContraste(){
   var contra = document.getElementsByTagName('body')[0];
+  var contra2 = document.getElementsByTagName('div')[55];
   contra.removeAttribute("class");
+  contra2.classList.add("content");
+  
 }
 //Fin de cambiar contrastes
 
