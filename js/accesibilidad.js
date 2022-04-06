@@ -5,7 +5,7 @@
 function ammunition(estilo1,estilo2){
   	var estail = estilo1+' '+estilo2;
     var frontPage = document.getElementsByTagName('body')[0].className = estail;
-    var frontPage1 = document.getElementsByTagName('div')[55].className = estail;
+    var frontPage1 = document.getElementsByTagName('div')[59].className = estail;
   	console.log(estail);
 }
 
