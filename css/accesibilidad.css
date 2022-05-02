@@ -493,21 +493,41 @@ main.home {
     background-color: red;
     background-image: none;
     background-size: auto auto;
+    font-family: 'Ancizar sans';
     color: white;
-
-
 }
 
 .contraste-2 {
-    background-color: green;
+    background-color: black;
     background-image: none;
     background-size: auto auto;
-
+    font-family: 'Ancizar sans';
+    color: yellow;
 }
 
 .contraste-3 {
     background-color:blue;
     background-image: none;
     background-size: auto auto;
+    font-family: 'Ancizar sans';
+    color:white;
 
 }
+
+.contraste-1 p{
+    text-align: center;
+
+}
+.contraste-2 p{
+    text-align: center;
+
+}
+.contraste-2 .letras-porcentaje{
+    color: white;
+
+}
+.contraste-3 p{
+    text-align: center;
+
+}
+

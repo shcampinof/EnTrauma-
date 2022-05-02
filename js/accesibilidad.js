@@ -6,6 +6,9 @@ function ammunition(estilo1,estilo2){
   	var estail = estilo1+' '+estilo2;
     var frontPage = document.getElementsByTagName('body')[0].className = estail;
     var frontPage1 = document.getElementsByTagName('div')[59].className = estail;
+    var frontPage2 = document.getElementsByTagName('h1')[0].className = estail;
+    var frontPage3 = document.getElementsByTagName('h3')[0].className = estail;
+    var frontPage4 = document.getElementsByTagName('p')[0].className = estail;
   	console.log(estail);
 }
 
@@ -155,8 +158,15 @@ function cambiarContrastes(number) {
 function restaurarContraste(){
   var contra = document.getElementsByTagName('body')[0];
   var contra2 = document.getElementsByTagName('div')[59];
+  var contra3 = document.getElementsByTagName('h1')[0];
+  var contra4 = document.getElementsByTagName('h3')[0];
+  var contra4 = document.getElementsByTagName('p')[0];
   contra.removeAttribute("class");
   contra2.classList.add("content");
+  contra2.classList.add("main-text");
+  contra3.classList.add("subtitulo-entrauma");
+  contra4.classList.add("texto text-light");
+
   
 }
 //Fin de cambiar contrastes
