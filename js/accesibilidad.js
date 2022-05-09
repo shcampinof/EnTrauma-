@@ -160,12 +160,17 @@ function restaurarContraste(){
   var contra2 = document.getElementsByTagName('div')[59];
   var contra3 = document.getElementsByTagName('h1')[0];
   var contra4 = document.getElementsByTagName('h3')[0];
-  var contra4 = document.getElementsByTagName('p')[0];
+  var contra5 = document.getElementsByTagName('p')[0];
   contra.removeAttribute("class");
+  contra2.removeAttribute("class");
+  contra3.removeAttribute("class");
+  contra4.removeAttribute("class");
+  contra5.removeAttribute("class");
   contra2.classList.add("content");
-  contra2.classList.add("main-text");
-  contra3.classList.add("subtitulo-entrauma");
-  contra4.classList.add("texto text-light");
+  contra3.classList.add("main-text");
+  contra4.classList.add("subtitulo-entrauma");
+  contra5.classList.add("text-light");
+  contra5.classList.add("texto");
 
   
 }
