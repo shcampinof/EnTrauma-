@@ -532,7 +532,8 @@ table.gsc-completion-container {
 }
 
 main .breadcrumb-class {
-	border-bottom: 1px dotted #646464; color: #323232; line-height: 30px; margin: 50px 0 0;
+	background-color: transparent;
+	border-bottom: 1px solid #646464; color: #323232; line-height: 30px;
 }
 
 main .breadcrumb-class span,
@@ -541,7 +542,7 @@ main .breadcrumb-class a {
 }
 
 main .breadcrumb-class a {
-	color: #94b43b; font-weight: normal;
+	color: #e93a35; font-weight: bold;
 }
 
 main .breadcrumb-class a:hover {
@@ -549,7 +550,8 @@ main .breadcrumb-class a:hover {
 }
 
 main.detalle {
-	margin: 0 10% 50px 10%;
+	margin: 0% 10% 30px 10%; 
+	padding-top: 1%;
 }
 
 footer {

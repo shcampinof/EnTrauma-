@@ -9,6 +9,7 @@ function ammunition(estilo1,estilo2){
     var frontPage2 = document.getElementsByTagName('h1')[0].className = estail;
     var frontPage3 = document.getElementsByTagName('h3')[0].className = estail;
     var frontPage4 = document.getElementsByTagName('p')[0].className = estail;
+    var frontPage5 = document.getElementsByTagName('div')[60].className = estail;
   	console.log(estail);
 }
 
@@ -161,16 +162,21 @@ function restaurarContraste(){
   var contra3 = document.getElementsByTagName('h1')[0];
   var contra4 = document.getElementsByTagName('h3')[0];
   var contra5 = document.getElementsByTagName('p')[0];
+  var contra6 = document.getElementsByTagName('div')[60];
   contra.removeAttribute("class");
   contra2.removeAttribute("class");
   contra3.removeAttribute("class");
   contra4.removeAttribute("class");
   contra5.removeAttribute("class");
+  contra6.removeAttribute("class");
   contra2.classList.add("content");
   contra3.classList.add("main-text");
   contra4.classList.add("subtitulo-entrauma");
   contra5.classList.add("text-light");
   contra5.classList.add("texto");
+  contra6.classList.add("breadcrumb-class");
+
+
 
   
 }

@@ -429,7 +429,7 @@ body.tamanio-letra-200 main.accesibility-on {
 
 
 main.accesibility-on {
-    padding-top: 200px
+    padding-top: 50px
 }
 
 .tx-unal-accesibilidad {
@@ -490,27 +490,21 @@ main.home {
 }
 
 .contraste-1 {
-    background-color: red;
+    background-color: black;
     background-image: none;
     background-size: auto auto;
     font-family: 'Ancizar sans';
     color: white;
 }
 
-.contraste-2 {
-    background-color: black;
-    background-image: none;
-    background-size: auto auto;
-    font-family: 'Ancizar sans';
-    color: yellow;
+
+.contraste-1 .letras-porcentaje{
+    color: black;
+
 }
 
-.contraste-3 {
-    background-color:blue;
-    background-image: none;
-    background-size: auto auto;
-    font-family: 'Ancizar sans';
-    color:white;
+.contraste-1 .breadcrumb-class-access{
+	border-bottom: 1px solid white; line-height: 30px;
 
 }
 
@@ -518,16 +512,56 @@ main.home {
     text-align: center;
 
 }
+
+.contraste-2 {
+    background-color:#ffff00;
+    background-image: none;
+    background-size: auto auto;
+    font-family: 'Ancizar sans';
+    color: blue;
+}
+
+.contraste-2 .letras-porcentaje{
+    color: black;
+
+}
+.contraste-2 a{
+	color: black; font-weight: bold;
+}
+
+.contraste-2 .breadcrumb-class-access{
+	border-bottom: 1px solid blue; line-height: 30px;
+
+}
+
 .contraste-2 p{
     text-align: center;
+}
+
+.contraste-3 {
+    background-color:#042012 ;
+    background-image: none;
+    background-size: auto auto;
+    font-family: 'Ancizar sans';
+    color:#ff00b3;
 
 }
-.contraste-2 .letras-porcentaje{
-    color: white;
 
-}
 .contraste-3 p{
     text-align: center;
 
 }
+
+.contraste-3 .letras-porcentaje{
+    color: black;
+
+}
+
+.contraste-3 .breadcrumb-class-access{
+	border-bottom: 1px solid #ff00b3; line-height: 30px;
+
+}
+
+
+
 
