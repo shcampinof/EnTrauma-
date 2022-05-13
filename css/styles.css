@@ -47,10 +47,10 @@ h3{
 }
 
 .texto{
-  text-align: justify;
-  padding:3% 22% 0;
+  text-align: center;
+  padding:3% 16% 0;
   font-size: 1.4rem;
-  justify-content: jus;
+
 }
 .botonn{
     display:block;
