@@ -11,7 +11,7 @@ function ammunition(estilo1,estilo2){
     var frontPage4 = document.getElementsByTagName('p')[0].className = estail;
 
   	console.log(estail);
-}
+}   
 
 //Agregar y remover clases al body
 
