@@ -167,7 +167,6 @@ function restaurarContraste(){
   contra3.removeAttribute("class");
   contra4.removeAttribute("class");
   contra5.removeAttribute("class");
-  contra6.removeAttribute("class");
   contra2.classList.add("content");
   contra3.classList.add("main-text");
   contra4.classList.add("subtitulo-entrauma");
